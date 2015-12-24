@@ -46,8 +46,14 @@ module.exports = {
 		}
 	},
 	world: function(req, res) {
-		return res.status(200).json({
-			message: 'world'
-		})
+		if (req.body.world) {
+			return res.status(200).json({
+				message: 'world'
+			})
+		} else {
+			res.status(400).json({
+				error: 'incorrect parameters'
+			})
+		}
 	}
 }

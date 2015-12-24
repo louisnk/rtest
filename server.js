@@ -4,8 +4,8 @@ var bodyParser = require('body-parser');
 var routes = require('./routes')
 
 // Setup the middlewares
-// app.use(bodyParser.urlencoded({ extended: true }));
-// app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
 
 // Using the HJS (hogan.js) engine to render templates server side
 app.set('view engine', 'hjs');
