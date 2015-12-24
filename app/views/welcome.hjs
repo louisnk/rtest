@@ -1,0 +1,59 @@
+{{> header }}
+
+<div class="container mt20 mb20">
+	<div class="row">
+		<div class="col-xs-12 col-md-8 col-md-offset-2 is-card has-shadow text-center p50 bg-white pb10">
+			<div class="container-fluid full-width">
+				<div class="row">
+					<div class="col-xs-12 col-md-10 col-md-offset-1 text-center">
+						<p><img src="/assets/logos/{{ client.logo }}" alt="{{ client.name }} logo" class="client-logo"></p>
+						<h3>Congratulations on your advancement to the next stage of our application process!</h3>
+
+						<p>We recognize that resumes and cover letters don’t always tell us everything we need to know about a candidate. That’s why we’re working with Koru, a talent discovery company, to help us learn more about who you are and what you can do.</p>
+						<p>If you’d like to move forward, <strong>please complete this two-part questionnaire by [Date]</strong> to help us understand how you would be successful at Deutsche Bank. </p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
+
+						<p class="pb20"><a href="{{ content.ctaUrl }}" class="btn btn-big inline btn-primary mt20">
+							{{ content.ctaCopy }}
+						</a></p>
+						<p class="text-small secondary">By clicking “Get Started”, you agree to our <a href="/terms-of-service" target="_self">Terms of Service</a> and give us permission to share your information with deutsche bank and other potential employers.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-md-10 col-md-offset-1 text-left">
+						<hr class="pb20">
+						<h5>What can I expect?</h4>
+						<p>The talent profile is split into two parts:</p>
+						<ul>
+							<li><strong>Part I</strong>: Past Experiences and Workplace Situations <span class="text-color-light">(30 minutes)</span></li>
+							<li><strong>Part II</strong>: 90-second Video Introduction <span class="text-color-light">(15 minutes)</span></li>
+						</ul>
+						<p>You should try to finish all in one sitting, but you will be able to save and return if necessary.  The video will use a standard built-in camera or you can use a different camera or phone and upload the file.</p>
+					</div>
+				</div>
+			</div>
+<!-- 
+			<h1>{{ content.title }}</h1>
+			<div class="col-xs-12 text-center mb20">
+				<span class="panel-heading">
+					<img src="/assets/logos/{{ client.logo }}" 
+						alt="{{ client.name }} logo">
+				</span>
+			</div>
+			<h3>{{ content.subtitle }}</h3>
+			<p>{{ content.body }}</p>
+			<p>{{ content.body2 }}</p>
+			<a href="{{ content.ctaUrl }}" class="btn btn-max btn-primary mt20">
+				{{ content.ctaCopy }}
+			</a>
+			<div class="row text-center mt20">
+		    <div class="col-md-10 col-md-offset-1">
+				   <p class="text-small secondary">By clicking “Sign Up”, you agree to our <a href="/terms-of-service" target="_self">Terms of Service</a> and give us permission to share your information with deutsche bank and other potential employers.</p>
+		    </div>
+			</div> -->
+		</div>
+	</div>
+</div>
